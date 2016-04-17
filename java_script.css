@@ -1,0 +1,128 @@
+.page {
+  margin: 0 auto;
+  width: 800px;
+  background-color: #ffffff;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, sans-serif;
+}
+
+.p_head {
+  height: 110px;
+}
+
+.p_title {
+  margin-top: 20px;
+  color: #00008b;
+  font-weight: bold;
+  font-size: 1.55rem;
+}
+
+.p_nav {
+  margin-top: 10px;
+}
+
+.p_nav ul li {
+  display: inline;
+  float: left;
+}
+
+.p_nav ul li a {
+  display: block;
+  margin: 1px;
+  width: 129px;
+  height: 28px;
+  border: 1px solid #003366;
+  background-color: #d6eaff;
+  color: #003366;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.0rem;
+  line-height: 28px;
+}
+
+.p_nav ul li a:hover {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.p_head p {
+  margin-top: 10px;
+}
+
+.p_main h2 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.p_main p:first-of-type {
+  margin-top: 10px;
+}
+
+.p_main p:last-of-type {
+  padding-bottom: 50px;
+}
+
+.p_footer {
+  position: fixed;
+  bottom: 0;
+  width: 800px;
+  height: 40px;
+  background-color: #ffffff;
+}
+
+.p_footer div {
+  float: right;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 13px 1px 0;
+  width: 50px;
+  height: 25px;
+  border: 1px solid #003366;
+  border-radius: 4px;
+  background-color: #d6eaff;
+  color: #003366;
+}
+
+.triangle_up {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-width: 0 6px 12px 6px;
+  border-style: solid;
+  border-color: transparent transparent #003366 transparent;
+}
+
+.triangle_down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-width: 12px 6px 0 6px;
+  border-style: solid;
+  border-color: #003366 transparent transparent transparent;
+}
+
+.button:hover {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.button:hover > .triangle_up {
+  border-color: transparent transparent #ffffff transparent;
+}
+
+.button:hover > .triangle_down {
+  border-color: #ffffff transparent transparent transparent;
+}
